@@ -1,3 +1,6 @@
+
+##ciataitons
+
 # I use copilot a to help me explain what each code did on how to add the .vimrc file instruction to use vundle. whenever something wasn't working I paste the error and it tell me what I need to fix and what I did wrong.
  
 # when I added my color into the .vimrc file I asked Copilot Ai for the command to test to see if it's working. 
