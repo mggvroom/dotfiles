@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# copying my .bashrc file from system to my repository.
+# copying my .bashrc file from my repository to my system home directory.
  ln -s  /home/kammo/dotfiles/homefile/.bashrc  /home/kammo/
 
 
 
-#USER
+#USER Info
 
 echo "reload your shell with 'source ~/.bashrc' or by logging out and back on."
