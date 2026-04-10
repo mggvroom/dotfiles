@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+# checking if user euid is running as root, if not it prompts user to use sudo or root permision.
 if [ $(id -u) -eq 0 ]; then
 
 	echo "script is proceeding"
@@ -13,7 +13,7 @@ else
 
 fi 	
 
-
+# checking if apt is installed on the system, if not it tells the user the script uses apt package manager.
 if dpkg -s apt > /dev/null 2>&1; then
 
 	echo "apt is installed on your system"
@@ -24,7 +24,7 @@ else
 fi 
 
 
-
+# checking if ansible or anyother file with the same name is on the system, and if it is, it returns a conflict occurred.
 if command -v ansible > /dev/null 2>&1; then 
 	
 	echo " ansible exist on your system."
@@ -42,7 +42,8 @@ fi
 
 
 
-
+# if Ansible isn't installed or there isn't a file with the name on the user's system, the script asks them if they want to install.
+# if the user enter y, the script installs Ansible on their system.
 
 echo " Ansible provides open-source automation that reduces complexity and runs everywhere. Using Ansible lets you automate virtually any task."
 
