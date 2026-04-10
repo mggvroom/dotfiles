@@ -5,7 +5,8 @@
 
 - Next it checks if apt is install on the system. 
 
-- command -v check if the software ansible exist, and if there's similar file with the same name on the system.
+-  command -v ansible check if the software ansible exist, and if there's similar file with the same name on the system.
+- After all that if non of the aoftware is install on the system, the script ask the user if they want to install it on their system.
 
 
 
