@@ -27,10 +27,10 @@
 # Ciatation
 
 - I used this link to get the code to check if apt is already available on the system.
-[checking if apt alredy exist](https://linuxvox.com/blog/ubuntu-check-if-package-is-installed/ )
+[checking if apt already exists](https://linuxvox.com/blog/ubuntu-check-if-package-is-installed/ )
 
 
-- I used this website to get the code to check if the user euid is running as root .
+- I used this website to get the code to check if the user euid is running as root.
  [checking user euid](https://linuxvox.com/blog/check-user-id-linux/)
 
 
